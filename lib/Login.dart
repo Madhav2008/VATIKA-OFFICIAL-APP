@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vatika/components/my_button.dart';
 import 'package:vatika/components/my_textfield.dart';
 import 'package:vatika/components/square_tile.dart';
+import 'package:vatika/screens/entryPoint/entry_point.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
@@ -12,7 +13,8 @@ class LoginPage extends StatelessWidget {
 
   // sign user in method
   void signUserIn() {
-    Navigator.push(context, MaterialPageRoute(builder: (builder)=>))
+    Navigator.push(
+        context, MaterialPageRoute(builder: (builder) => EntryPoint()));
   }
 
   @override
