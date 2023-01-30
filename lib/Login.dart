@@ -4,11 +4,17 @@ import 'package:vatika/components/my_textfield.dart';
 import 'package:vatika/components/square_tile.dart';
 import 'package:vatika/screens/entryPoint/entry_point.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends StatefulWidget {
   LoginPage({super.key});
 
+  @override
+  State<LoginPage> createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
   // text editing controllers
   final usernameController = TextEditingController();
+
   final passwordController = TextEditingController();
 
   // sign user in method
