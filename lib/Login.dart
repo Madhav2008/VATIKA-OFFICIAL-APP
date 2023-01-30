@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
 
   // sign user in method
   void signUserIn() {
-    Navigator.push(context, MaterialPageRoute(builder: builder))
+    Navigator.push(context, MaterialPageRoute(builder: (builder)=>))
   }
 
   @override
