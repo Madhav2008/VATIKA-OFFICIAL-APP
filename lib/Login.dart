@@ -14,7 +14,11 @@ class LoginPage extends StatelessWidget {
   // sign user in method
   void signUserIn() {
     Navigator.push(
-        context, MaterialPageRoute(builder: (builder) => EntryPoint()));
+      context,
+      MaterialPageRoute(
+        builder: (builder) => EntryPoint(),
+      ),
+    );
   }
 
   @override
